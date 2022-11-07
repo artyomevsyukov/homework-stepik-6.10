@@ -1,0 +1,247 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-500 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/roboto-v30-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/roboto-v30-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ----------------------------------------------------------------- */
+.container {
+  max-width: 1219px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-flow: column;
+  box-sizing: border-box;
+
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Header section */
+
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007765;
+  margin: 0px 0px 0px 0px;
+}
+/* Logo header */
+.logo {
+  box-sizing: border-box;
+  padding: 20px 20px 20px 55px;
+}
+.logo_position {
+  position: absolute;
+}
+/* Menu header */
+.nav {
+  box-sizing: border-box;
+  padding: 29px 54px 26px 0;
+}
+
+.menu {
+  font-weight: 500; /*Устанавливает насыщенность шрифта*/
+  font-size: 24px; /*Определяет размер шрифта элемента*/
+  line-height: 28px; /*Задаёт высоту строки текста*/
+  text-decoration: none; /*Добавляет оформление текста*/
+  color: #fff; /*Определяет цвет текста элемента*/
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu li {
+  display: inline;
+  list-style-type: none;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+
+/* jumbotron section */
+.jumbotron {
+  background-image: url(/img/Jumbotron.png);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 160px;
+  padding-bottom: 160px;
+  width: 100%;
+}
+.jumbotron_text {
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 84px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+/* the-problem section */
+.Introducing {
+  background-color: rgb(249, 235, 235);
+}
+
+.h1_text {
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #007765;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+.text {
+  margin-top: 0;
+  font-family: Roboto;
+
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bot_text {
+  padding-bottom: 92px;
+  margin-block-end: 0em;
+}
+
+/* Hero section */
+.hero {
+  background-image: url(/img/hero.png);
+  background-size: cover;
+  background-position: center center;
+  padding: 128px 163px 135px 163px;
+}
+
+.hero_message {
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.img_ppc {
+  float: left;
+  padding-right: 48px;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.name {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+
+  color: #007765;
+  margin: 12px 0 0 0;
+}
+.founder {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+/* Footer section */
+.footer {
+  background: #333333;
+
+  height: 176px;
+  box-sizing: border-box;
+
+  padding: 48px 339px 64px 340px;
+}
+.text_footer {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+/* ----------------------------------------------------- */
+/* Media */
+/* @media screen and (min-width: 1220px) {
+  .container {
+    min-width: 1400px;
+    padding-left: 451px;
+    padding-right: 451px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .logo {
+    padding: 20px 20px 20px 501px;
+    color: blue;
+  }
+  .nav {
+    padding: 29px 400px 26px 0;
+  }
+} */
